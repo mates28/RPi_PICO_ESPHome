@@ -14,4 +14,4 @@
  <li>Pomocí prohlížeče se připojíme na HA <b>'http(s)://wifi_ip:8123'</b></li>
 </ol>
 <h2>Příprava RPi PICO (ESP32, ESP8266) pro ESPHome firmware</h2>
-<p>V prohlížeči si zadáme url: <b>https://esphome.io/</b> a zobrazíme si stránku s podporou a nastavením ESP Home</p>
+<p>V prohlížeči si zadáme url: <a href="https://esphome.io/" target="_blank"><b>https://esphome.io/</b></a> a zobrazíme si stránku s podporou a nastavením ESP Home</p>

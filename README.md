@@ -20,7 +20,8 @@
 ```
 sensor:
   - platform: internal_temperature
-    name: "Internal Temperature"
+    name: "Teplota procesoru"
+    update_interval: 60s
 ```
 
 <h4>Příklad přidání a ovládání RGB Neopixel LED pásku s 22 ks LED</h4>

@@ -15,3 +15,26 @@
 </ol>
 <h2>Příprava RPi PICO (ESP32, ESP8266) pro ESPHome firmware</h2>
 <p>V prohlížeči si zadáme url: <a href="https://esphome.io/" target="_blank"><b>https://esphome.io/</b></a> a zobrazíme si stránku s podporou a nastavením ESP Home</p>
+<h4>Příklad přidání výpisu teploty procesoru RPi PICO:</h4>
+
+```
+sensor:
+  - platform: internal_temperature
+    name: "Internal Temperature"
+```
+
+<h4>Příklad přidání a ovládání RGB Neopixel LED pásku s 22 ks LED</h4>
+
+```
+light:
+  - platform: rp2040_pio_led_strip
+    name: led_strip
+    id: led_strip
+    pin: GPIO21
+    num_leds: 22
+    pio: 0
+    rgb_order: GRB
+    chipset: WS2812B
+```
+
+<p>Další příklady později....</p>
